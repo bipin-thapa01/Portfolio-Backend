@@ -8,6 +8,6 @@ server.use(cors());
 server.use(express.json());
 server.use('/email',email);
 
-server.listen('1111',()=>{
-  console.log(`server running at port 11111`);
+server.listen('5000',()=>{
+  console.log(`server running at port 5000`);
 })
